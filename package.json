@@ -2,7 +2,7 @@
   "name": "axios-force",
   "version": "0.0.0",
   "description": "",
-  "keywords": [],
+  "keywords": ["axios", "salesforce", "axios salesforce", "axios force", "axios-force"],
   "main": "dist/axios-force.umd.js",
   "module": "dist/axios-force.es5.js",
   "typings": "dist/types/axios-force.d.ts",
