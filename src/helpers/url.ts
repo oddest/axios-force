@@ -6,7 +6,7 @@ import { encode } from './utils/encoder'
  *
  * @return A formatted Request URL
  */
-export function buildURL(url: string, params?: any): string {
+export function processURL(url: string, params?: any): string {
   if (!params) {
     return url
   }
