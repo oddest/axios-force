@@ -6,3 +6,14 @@ export function processRequestData(data: any): any {
   }
   return data
 }
+
+export function processResponseData(data: any): any {
+  if (typeof data === 'string') {
+    try {
+      data = JSON.parse(data)
+    } catch (e) {
+      // TODO: NOTHING
+    }
+  }
+  return data
+}
